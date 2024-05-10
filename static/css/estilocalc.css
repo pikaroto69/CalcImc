@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+body{
+    background-color: beige;
+}
+:root{
+    --cprincipal: #058789;
+    --csecundaria: #0a6869;
+    --cletra: azure;
+    --introdução: rgb(38, 137, 146);
+}
+header{
+    text-align: center;
+    background: var(--cprincipal);
+}
+.cabecalho{
+    background-color:var(--csecundaria);
+    padding: 15px;
+
+}
+.botcabecalho{
+    background-color: rgb(49, 129, 117);
+    color:var(--cletra);
+    border-radius:10px;
+    padding: 10px;
+    margin: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 350px;
+}
+.calculadora{
+    text-align: center;
+}
+.botao{
+    color: var(--cletra);
+    border-radius: 10px;
+}
+footer {
+    background-color: var(--cprincipal);
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+}
+
+.rede {
+    text-align: center;
+    background-color:var(--csecundaria);
+}
+
+.insta {
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.face {
+    margin-top: 5px;
+    width: 30px;
+}
+
+.endereco {
+    color: var(--cletra);
+    margin-bottom: 7px;
+}
+
+.h2senai {
+    color: var(--cletra);
+}
+.tcalc{
+    background-color: var(--introdução);
+    text-align: center;
+    width: 1000px;
+    height: 40px;
+    left: 100px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 38px;
+    margin-left: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.07);
+    color:var(--cletra);
+}
+.info{
+    background-color: var(--csecundaria);
+    color:var(--cletra);
+    border-radius: 10px;
+    padding:10px;
+}
+.resul{
+    background-color: aliceblue;
+    padding:5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius:50px
+}
+.tabela{
+    text-align: center;
+}
+div img{
+    width: 500px;
+}

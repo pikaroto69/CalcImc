@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+body{
+    background-color: beige;
+}
+:root{
+    --cprincipal: #058789;
+    --csecundaria: #0a6869;
+    --cletra: azure;
+    --introdução: rgb(38, 137, 146);
+}
+header{
+    text-align: center;
+    background: var(--cprincipal);
+}
+.cabecalho{
+    background-color:var(--csecundaria);
+    padding: 15px;
+   
+}
+.botcabecalho{
+    background-color: rgb(49, 129, 117);
+    color:var(--cletra);
+    border-radius:10px;
+    padding: 10px;
+    margin: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 350px;
+}
+
+.sn {
+    background-color: var(--introdução);
+    text-align: center;
+    width: 450px;
+    height: 40px;
+    left: 100px;
+    padding: 10px;   
+    margin: 30px; 
+    border-radius: 38px;
+    margin-left: 38px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.07);
+    color:var(--cletra);
+}
+
+.introducao{
+    color: var(--cletra);
+    background-color: var(--introdução);
+    margin: 30px; 
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.07);
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px;
+
+}
+.container {
+    justify-content:center; /*Alinhado X*/
+    align-items: center; /*Alinha do Y*/
+    flex-direction: column;
+    display:flex;
+}
+.equipe{
+    background-color:rgb(110, 193, 214);
+    padding-bottom: 40px;
+}
+.teqp{
+    margin-top: 20px;
+    text-align: center;
+    color: var(--cletra);
+    font-size: xx-large;
+
+}
+.descequipe{
+    text-align: center;
+    color: var(--cletra);
+    background-color: #61c5c7;
+    height: 100px;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left:100px;
+    border-radius: 30px;
+    height: 100px;
+    padding:30px;
+}
+footer {
+    background-color: var(--cprincipal);
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+}
+
+.rede {
+    text-align: center;
+    background-color:var(--csecundaria);
+}
+
+.insta {
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.face {
+    margin-top: 5px;
+    width: 30px;
+}
+
+.endereco {
+    color: var(--cletra);
+    margin-bottom: 7px;
+}
+
+.h2senai {
+    color: var(--cletra);
+}
+
+

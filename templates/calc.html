@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href='static/css/estilocalc.css'>
+</head>
+<body>
+    <header>
+        <img class="logo" src="static/img/logoo.png">
+        <div class="cabecalho">
+            <a class="botcabecalho" href="/"><bottom>Inicio</bottom></a>
+            <a class="botcabecalho" href="/servicos"><bottom>Serviços</bottom></a>
+            <a class="botcabecalho" href="/contato"><bottom>Contato</bottom></a>
+            <a class="botcabecalho" href="/sobre"><bottom>Sobre Nós</bottom></a>
+            <a class="botcabecalho" href="/calc"><bottom>Calcular IMC</bottom></a>
+        </div>
+    </header>
+    <h1 class="tcalc">Calculadora de IMC</h1>
+    <form action="/calcular_imc" method="post">
+        <label for="altura" class="info">Altura (m):</label>
+        <input type="text" name="altura" id="altura" required>
+        <br><br><br><br>
+        <label for="peso" class="info">Peso (kg):</label>
+        <input type="text" name="peso" id="peso" required>
+        <br><br><br>
+        <button type="submit" class="botao">Calcular IMC</button>
+<br><br>
+        <p class="resul"><b>Resultado:</b> {{imc}}</p>
+    </form>
+<br><br>
+    <div class="tabela">
+        <h2 class="tcalc">Tabela de Avaliação</h2>
+        <img src="static/img/tabela.png">
+    </div>
+
+
+    <footer>
+        <div class="rede">
+               <img class="insta" src="static/img/logo-instagram-branco.png">
+               <img class="face" src="static/img/logo-facebook-branco.png">
+           </div>
+            <div>
+               <h2 class="h2senai fonte">Clinica NutriVital</h2>
+               <p class="endereco fonte">Avenida João Cernach, 2180 - Vila Troncoso - Vila Troncoso, Birigui - SP, 16203-004</p>
+   <br>
+               <h3 class="h2senai fonte">Secretaria</h3>
+                   <p class="endereco fonte">(11) 3322-0050 (Telefone/WhatsApp)
+               0800-055-1000 (Interior de SP, somente telefone fixo)</p>
+            </div>
+
+       </footer>
+</body>
+</html>
+

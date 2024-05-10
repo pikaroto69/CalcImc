@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --vermelho: RED;
+    --azul: blue;
+    --laranja: orange;
+    --verde: green;
+    --altura: 100px;
+}
+
+.container {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center; /* Alinha no X */
+    align-items: center; /* Alinha no Y */
+    background-color: beige;
+    height: 100vh;
+    gap: 25px; /* Margin entre os filhos */
+    flex-wrap: wrap; /* Quebra linha */
+}
+.container div {
+    height: 450px;
+    width: 350px;
+}
+
+
+.container .div1 {
+    background-color: white;
+    order: 1;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px gray;
+}
+
+.container .div2 {
+    background-color: white;
+    order: 2;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px gray;
+}
+
+.container .div3 {
+    background-color: white;
+    order: 3;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px gray;
+}
+
+body {
+    background-color: beige;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tamanho {
+    font-weight: 800;
+}
+
+.titulo {
+  margin-bottom: 50px;
+  font-size: 2.5em;
+}
+
+header{
+    text-align: center;
+    background: #058789;
+}
+.cabecalho{
+    background-color:#0a6869;
+    padding: 15px;
+    margin-bottom:10px;
+   
+}
+.botcabecalho{
+    background-color: rgb(49, 129, 117);
+    color:white;
+    border-radius:10px;
+    padding: 10px;
+    margin: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 300px;
+}
+
+
+
+.imgdiv {
+    width: 310px;
+    height: 310px;
+}
+
+.margemdiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.borda {
+    border-radius:10px;
+}
+
+.tamanhofont {
+    font-size: small;
+}
+
+.margemp {
+    margin-top: 5px;
+}
+
+.cinza {
+    color: darkslategray;
+}
+
+.branco {
+    color: #058789;
+}
+
+.imgtamanho {
+    width: 90%;
+}
+
+.txtdiv {
+    font-size: 1.3em;
+}
+
+.mg {
+    margin-bottom: 10px;
+}
+
+.tit {
+    font-weight: 700;
+}
+
+footer {
+    background-color: var(--cprincipal);
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+}
+
+.rede {
+    text-align: center;
+    background-color:var(--csecundaria);
+}
+
+.insta {
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.face {
+    margin-top: 5px;
+    width: 30px;
+}
+
+.endereco {
+    color: var(--cletra);
+    margin-bottom: 7px;
+}
+
+.h2senai {
+    color: var(--cletra);
+}
+
+:root{  
+    --cprincipal: #058789;
+    --csecundaria: #0a6869;
+    --cletra: azure;
+    --introdução: rgb(38, 137, 146);
+}
